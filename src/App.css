@@ -1,9 +1,13 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: #000000;
 }
 p {
-  font-size: 1.5rem;
+  color: #ffffff;
+}
+h1 {
+  color: #ffffff;
 }
 .container {
   margin: 0 auto;
@@ -11,7 +15,7 @@ p {
   padding: 40px;
 }
 .title {
-  font-size: 2.5rem;
+  font-size: 2rem;
   text-align: center;
 }
 .form {
@@ -21,6 +25,7 @@ p {
   font-size: 1.2rem;
   margin-bottom: 1%;
   text-transform: uppercase;
+  display: none;
 }
 .input {
   font-size: 1.2rem;
@@ -29,10 +34,11 @@ p {
   border-radius: 20px;
   border: 1px solid #ddd;
   margin-bottom: 1rem;
+  background-color: #ffffff;
 }
 .button {
-  background-color: rgb(0, 0, 0, 0.75);
-  color: #ffffff;
+  background-color: rgb(250, 245, 245);
+  color: #000000;
   padding: 0.5rem;
   border: 1px solid rgb(0, 0, 0, 0.5);
   border-radius: 20px;
@@ -41,7 +47,7 @@ p {
   transition: background-color 250ms;
 }
 .button:hover {
-  background-color: rgb(0, 0, 0, 0.9);
+  background-color: #ffffff;
 }
 
 @media (min-width: 786px) {
@@ -53,15 +59,25 @@ p {
   .input {
     margin-bottom: 0;
   }
+  .label {
+    display: block;
+  }
+  p {
+    font-size: 1.5rem;
+  }
 }
 .movie-display {
   margin-top: 2rem;
+}
+.movie-display p {
+  color: #000000;
 }
 .card {
   padding: 2rem 2rem;
   border-radius: 10px;
   box-shadow: 1px 1px 5px rgb(0, 0, 0, 0.25);
   margin-bottom: 2rem;
+  background-color: #ffffff;
 }
 .card--title {
   text-align: center;
