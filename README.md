@@ -3,7 +3,7 @@
 Movie search website built with React JS.
 Information gotten from TMDB API
 
-![alt text]()
+![alt text](https://github.com/Shimele/React-Movie-Search/blob/main/Screenshot%20.png)
 
 ## Live demo
 
