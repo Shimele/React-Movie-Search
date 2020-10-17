@@ -18,10 +18,10 @@ export default function MovieCard(props) {
           <h3>{movie.title}</h3>
         </div>
         <p data-aos="fade-right" data-aos-duration="2000">
-          <small>RELEASE DATE: {movie.release_date}</small>
+          <small>Release Date: {movie.release_date}</small>
         </p>
         <p data-aos="fade-left" data-aos-duration="2000">
-          <small>RATING: {movie.vote_average}</small>
+          <small>Rating: {movie.vote_average}</small>
         </p>
         <p
           className="card--description"

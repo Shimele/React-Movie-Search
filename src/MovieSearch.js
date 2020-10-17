@@ -19,9 +19,7 @@ export default function MovieSearch() {
   return (
     <>
       <form className="form" onSubmit={searchMovie}>
-        <label htmlFor="query" className="label">
-          Movie Name
-        </label>
+        <label htmlFor="query" className="label"></label>
         <input
           className="input"
           type="text"
