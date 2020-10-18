@@ -8,6 +8,7 @@ export default function MovieSearch() {
   const [movies, setMovie] = useState([]); //
 
   const searchMovie = async (e) => {
+    document.querySelector("#root .popcorn").style.display = "none";
     e.preventDefault();
 
     const url = `https://api.themoviedb.org/3/search/movie?api_key=b2c2debf96aa714bc4dcc508ed334fc1&query=${query}`;
